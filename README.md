@@ -1,30 +1,11 @@
-# Docker scripts
-Here are some scripts that can make using this project easier.\
-
-Install Docker:
-
-```bash 
-# It's preferably to use -n flag that enables Nvidia drivers support.
-bash install_docker.sh -n # (Re)install Docker
-bash build_docker.sh -n # Build Docker container:
-bash run_docker.sh -n # Run Docker container
-```
-
-You can access the running container:
-```bash
-bash into_docker.sh
-```
-
-
-# Docker Scripts for ROS 2 Workspace (`ws_moveit`)
-
+Docker Scripts for ROS 2 Workspace (ws_moveit)
 This repository includes Docker scripts to simplify the development and deployment of your ROS 2 projects inside a containerized environment.
 
-## 🐳 Docker Setup
-
-### 1. Install Docker (with optional NVIDIA support)
-
-```bash
+🐳 Docker Setup
+1. Install Docker (with optional NVIDIA support)
+bash
+Copy
+Edit
 # Use the -n flag to enable NVIDIA driver support (recommended if using GPU).
 bash install_docker.sh -n     # Install or reinstall Docker
 bash build_docker.sh -n       # Build the Docker image
