@@ -1,7 +1,7 @@
 # Docker Scripts for ROS 2 Workspace (ws_moveit)
 This repository includes Docker scripts to simplify the development and deployment of your ROS 2 projects inside a containerized environment.
 
-🐳 Docker Setup
+Docker Setup
 1. Install Docker (with optional NVIDIA support)
 
 Use the -n flag to enable NVIDIA driver support (recommended if using GPU).
